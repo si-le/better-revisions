@@ -1,12 +1,12 @@
 === Better Revisions ===
 Contributors: slehner
-Donate link: https://www.sile.at/
+Donate link: https://www.silvius.at/
 Tags: revision, revisions, post revision, page revision, history, log changes, monitoring, logging, contentmanagement, content, management, enterprise cms, wordpress for enterprise
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 4.4
-Tested up to: 4.9.1
-Stable tag: 0.2
+Tested up to: 5.2.2
+Stable tag: 0.3
 
 Extend your Revisions: Add important fields like "Permalink" or "Status" to the revisions for a better Content Management.
 
@@ -28,7 +28,7 @@ So, this plugin adds following fields to the revision system:
 * Post Status
 * Post Password
 * Comment Status
-* Ping Status 
+* Ping Status
 * Post/Page Parent
 * Menu Order
 * more to come
@@ -38,6 +38,10 @@ This Plugin also adds a new revision, if only one of the fields above were chang
 If you want to restore a revision, the fields above will restored too. And in case of deleting a post/page, than all revision with all fields above will be deleted too - for a smaller and cleaner database.
 
 No further configuration is needed, the plugin doesn't add any database tables rather saves additional revision data to post-meta and works with custom-post-types too. It's translation ready and allready translated into german.
+
+= Gutenberg support was added =
+
+Now it works with the new Block-Editoe (Gutenberg) and the old Classic-Editor (tinyMCE).
 
 == Installation ==
 
@@ -57,6 +61,10 @@ Nothing yet - more to come!
 4. Works with autosaves too.
 
 == Changelog ==
+
+= 0.3 =
+- Gutenberg support added
+- minor bug fixes
 
 = 0.2 =
 - WP 4.9.1 check and documentation
