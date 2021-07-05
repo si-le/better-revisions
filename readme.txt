@@ -5,8 +5,8 @@ Tags: revision, revisions, post revision, page revision, history, log changes, m
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 4.4
-Tested up to: 5.2.2
-Stable tag: 0.3
+Tested up to: 5.7.2
+Stable tag: 0.4
 
 Extend your Revisions: Add important fields like "Permalink" or "Status" to the revisions for a better Content Management.
 
@@ -61,6 +61,9 @@ Nothing yet - more to come!
 4. Works with autosaves too.
 
 == Changelog ==
+
+= 0.4 =
+- test for newest WP and Klassik Editor Updates
 
 = 0.3 =
 - Gutenberg support added

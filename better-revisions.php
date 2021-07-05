@@ -2,7 +2,7 @@
 /*
    Plugin Name: Better Revisions
    Plugin URI: https://www.silvius.at/
-   Version: 0.3
+   Version: 0.4
    Author: Silvius Lehner
    Description: Adds the "Post Author", "Post Date", "Post Status", "Comment Status", "Ping Status", "Post Password", "Permalink", "Post Parent" and "Menu Order" to the revision system!
    Text Domain: better-revisions
